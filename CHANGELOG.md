@@ -1,6 +1,29 @@
 
 # Changelog
 
+[1.2.1] - 2025-11-21
+
+* [Linux] fix: Enable software AEC/NS/AGC for linux.
+* [Android] fix: Removed redundant null check and release for audioFileRenderer.
+* [Web] fix: Fix Android chrome mobile not rendering html <video> element (#1938)
+* [Web] fix: Clip hard edge on web's rtc_video_view (#1936)
+
+[1.2.0] - 2025-09-13
+
+* [Android] upgrade compileSdk to 36 as standard for 16kb pages support (#1925)
+* [Apple/Android] Local recording API for Darwin and Android (#1880)
+* [Apple/Android] Data Packet Cryptor Support.
+
+[1.1.0] - 2025-08-20
+
+* [Apple/Android] feat: Add H265/HEVC support.
+* [Mobile/Desktop] feat: Support write logs with Logger (logger package) (#1891)
+* [Android] fix: Reduce Recording Stop Delay and Prevent Encoder OOM Crashes (Android) (#1912)
+* [Native/Web] feat: small setVolume addition (#1904)
+* [Web] feat: Add texture-based video rendering for web (#1911)
+* [Android] fix: RECORDINGS - Add fallback resolutions for unsupported stream frame sizes on low-end Android devices (#1900)
+* [Android] fix: Update proguard-rules.pro (#1902)
+
 [1.0.0] - 2025-07-25
 
 * Bump version to 1.0.0
